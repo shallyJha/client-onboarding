@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background: linear-gradient(to right, #ecfdf5, #d1fae5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.client-card {
+  background: rgba(255, 255, 255, 0.98);
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.btn-client {
+  background-color: #10b981;
+  color: white;
+}
+
+.btn-client:hover {
+  background-color: #059669;
+}
+
+.summary-output {
+  background-color: #f0fdf4;
+  border-left: 5px solid #10b981;
+  padding: 1rem;
+  white-space: pre-wrap;
+  font-family: monospace;
+  margin-top: 1rem;
+}
